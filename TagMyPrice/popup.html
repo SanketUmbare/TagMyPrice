@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TagMyPrice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup-container">
+        <h1 class="popup-title">TagMyPrice</h1>
+        <p class="description">Track prices and get notified when they change!</p>
+        
+        <div class="input-section">
+            <label for="url-input" class="input-label">Enter Product URL:</label>
+            <input type="text" id="url-input" placeholder="Enter product URL" class="input-field" />
+        </div>
+        
+        <div class="input-section">
+            <label for="price-input" class="input-label">Enter Target Price:</label>
+            <input type="number" id="price-input" placeholder="Enter target price" class="input-field" />
+            <button id="save-price" class="btn save-btn">Save</button>
+        </div>
+
+        <div class="status-section">
+            <p class="current-price">Tracking URL: <span id="tracking-url">None</span></p>
+            <p class="current-price">Target Price: <span id="target-price">Not Set</span></p>
+            <p class="status-message" id="status-message"></p>
+        </div>
+
+        <div class="footer">
+            <button id="clear-btn" class="btn clear-btn">Clear</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

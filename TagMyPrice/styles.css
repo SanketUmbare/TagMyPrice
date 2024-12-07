@@ -1,0 +1,118 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.popup-container {
+    width: 500px;
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+    background-image: url('background1.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.1);
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1.popup-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+}
+
+.clear-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.clear-btn:hover {
+    background-color: #e53935;
+}
+
+/* Status Section */
+.status-section {
+    margin-bottom: 20px;
+}
+
+.current-price {
+    font-size: 14px;
+    color: #333;
+}
+
+.status-message {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (min-width: 200px) {
+    .popup-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .input-field, .btn {
+        font-size: 14px;
+    }
+}
