@@ -1,15 +1,6 @@
 # TagMyPrice
 A Chrome extension that tracks product prices on e-commerce websites and notifies you when they drop below your target. Simplify your online shopping experience with real-time alerts!🚀
 
-Here's a comprehensive `README.md` for your GitHub repository:
-
----
-
-# **Price Lock & Notify - Chrome Extension**
-
-### **Track product prices and get notified of price drops!**  
-This Chrome extension helps you monitor the prices of products on e-commerce websites. Simply enter the URL of the product, set a target price, and the extension will notify you when the price drops below your desired amount.
-
 ---
 
 ## **Features**
