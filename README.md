@@ -13,7 +13,7 @@ A Chrome extension that tracks product prices on e-commerce websites and notifie
 
 ## **Screenshots**
 ### **Popup Interface**
-![Popup Interface](screenshots/tagmyprice_SS.png)
+![Popup Interface](TagMyPrice/screenshots/tagmyprice_SS.png)
 
 ---
 
